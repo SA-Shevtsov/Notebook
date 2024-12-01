@@ -1,0 +1,94 @@
+.list {
+    width: 500px;
+    height: 300px;
+    background-color: #2F4156;
+    color:aliceblue;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.list::-webkit-scrollbar { 
+    width: 10px;
+}
+
+.list::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.list-item {
+    position: relative;
+    width: 99%;
+    height: 200px;
+
+    text-align: left;
+    font-size: 25px;
+    border-top: solid 1px;
+}
+
+.list-item__favorite {
+    position: absolute;
+    height: 50px;
+    width: 98%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.favorite-icon {
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.favorite-icon_active {
+    filter: drop-shadow(0px 0px 2px #00ffd5);
+}
+
+.list-item__name,
+.list-item__surname,
+.list-item__tel,
+.list-item__address {
+    padding-left: 20px;
+}
+
+.list-item__delete {
+    width: 98%;
+    display: flex;
+    justify-content: end;
+}
+
+.delete-icon {
+    height: 35px;
+    width: 35px;
+}
+
+.delete-icon:active {
+    filter: drop-shadow(0px 0px 2px #00ffd5);
+}
+
+.delete-icon:hover {
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: #5d00ff;
+}
+
+@media (width<500px) {
+    .list {
+        width: 98%;
+        height: 300px;
+    }
+
+    .list-item__name,
+    .list-item__surname,
+    .list-item__tel,
+    .list-item__address {
+        width: 90%;
+    }
+}

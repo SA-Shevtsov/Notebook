@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Sergey",
+        "surname": "Shevtsov",
+        "tel": "+375292452409",
+        "address": "Minsk"
+    },
+    {
+        "name": "Ksenia",
+        "surname": "Kuvaldina",
+        "tel": "+375292442408",
+        "address": "Minsk"
+    },
+    {
+        "name": "Alexey",
+        "surname": "Shevtsov",
+        "tel": "+375292432407",
+        "address": "Minsk"
+    },
+    {
+        "name": "Constantine",
+        "surname": "Shevtsov",
+        "tel": "+375292422406",
+        "address": "Mogilev"
+    },
+    {
+        "name": "Eugenia",
+        "surname": "Shevtsov",
+        "tel": "+375292412405",
+        "address": "Mogilev"
+    },
+    {
+        "name": "Mila",
+        "surname": "Shatrubova",
+        "tel": "+375292402404",
+        "address": "Gomel"
+    },
+    {
+        "name": "Anastasia",
+        "surname": "Lapina",
+        "tel": "+375292392403",
+        "address": "Brest"
+    },
+    {
+        "name": "Roman",
+        "surname": "Klimovtsov",
+        "tel": "+375292382402",
+        "address": "Mogilev"
+    }
+]
